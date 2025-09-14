@@ -40,3 +40,9 @@ const initialTasks = [
     status: "done",
   },
 ];
+
+let tasks=[...initialTasks];
+//get containers
+const todoColumn = document.getElementById("todo-card-container");
+const doingColumn = document.getElementById("doing-card-container");
+const doneColumn = document.getElementById("done-card-container");
